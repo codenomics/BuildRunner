@@ -1,5 +1,18 @@
 # BuildRunner
 
+## Download
+
+**Latest version: v1.5** (Oct 3, 2026)
+
+- [BuildRunner_v1.5.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.5/BuildRunner_v1.5.zip) - 184 KB
+- [BuildRunner_v1.5_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.5/BuildRunner_v1.5_Setup.exe) - 197 KB
+
+What's new in v1.5:
+
+No notes for this version.
+
+Older versions are on the [Releases page](https://github.com/codenomics/BuildRunner/releases).
+
 ## Getting started
 
 ```
