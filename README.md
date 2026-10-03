@@ -1,16 +1,20 @@
 # BuildRunner
 
+> This application is built by AI. I made this for myself and I'm uploading it to GitHub for backup and to share in case anyone can get any use out of it. It's pretty specific to my setup and my needs, but if you can get any use out of it, then enjoy.
+>
+> Use at your own risk. I offer no warranty or guarantees for this software.
+
 ## Download
 
-**Latest version: v1.7** (Oct 3, 2026)
+**Latest version: v1.8** (Oct 3, 2026)
 
-- [BuildRunner_v1.7_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.7/BuildRunner_v1.7_no-install.zip) - 129 KB
-- [BuildRunner_v1.7_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.7/BuildRunner_v1.7_Setup.exe) - 198 KB
+- [BuildRunner_v1.8_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.8/BuildRunner_v1.8_no-install.zip) - 130 KB
+- [BuildRunner_v1.8_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.8/BuildRunner_v1.8_Setup.exe) - 199 KB
 
-What's new in v1.7:
+What's new in v1.8:
 
-- Pictures are cleaned of hidden labels and extra hidden text when they go into a zip or installer
-- The upload check now also looks inside pictures, zipped files and installers, and stops if it finds anything personal
+- New optional disclaimer line in the rules file: shown at the top of the GitHub page and at the top of the READ ME FIRST in every zip
+- Fixed the upload check flagging BuildRunner's own program
 
 Older versions are on the [Releases page](https://github.com/codenomics/BuildRunner/releases).
 
