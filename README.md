@@ -2,15 +2,15 @@
 
 ## Download
 
-**Latest version: v1.6** (Oct 3, 2026)
+**Latest version: v1.7** (Oct 3, 2026)
 
-- [BuildRunner_v1.6_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.6/BuildRunner_v1.6_no-install.zip) - 128 KB
-- [BuildRunner_v1.6_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.6/BuildRunner_v1.6_Setup.exe) - 197 KB
+- [BuildRunner_v1.7_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.7/BuildRunner_v1.7_no-install.zip) - 129 KB
+- [BuildRunner_v1.7_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.7/BuildRunner_v1.7_Setup.exe) - 198 KB
 
-What's new in v1.6:
+What's new in v1.7:
 
-- With Zip + installer, the zip is now named with "no-install" so it's clear which download is which
-- The GitHub page now has a Getting started section for both the installer and the no-install zip
+- Pictures are cleaned of hidden labels and extra hidden text when they go into a zip or installer
+- The upload check now also looks inside pictures, zipped files and installers, and stops if it finds anything personal
 
 Older versions are on the [Releases page](https://github.com/codenomics/BuildRunner/releases).
 
@@ -41,12 +41,26 @@ Keeps a folder full of small apps tidy, and makes zips of them you can share.
 
 GETTING STARTED
 ---------------
-1. Right-click the zip -> Extract All... and put the BuildRunner folder
-   INSIDE the folder that holds your app projects (one folder per app).
-   BuildRunner then finds your apps by itself. You can pick another
-   folder later with Change... at the top.
-2. Double-click  BuildRunner.exe
-   Nothing to install. Needs Windows 10 or 11 (64-bit).
+Pick one. Both give you the same app.
+
+OPTION 1 - INSTALLER (recommended)
+  Download the file ending in _Setup.exe, double-click it and click Install.
+  It installs just for you (no admin password) and adds Start menu and
+  Desktop shortcuts. Needs Windows 10 or 11 (64-bit).
+  To remove it later: Windows Settings > Apps > BuildRunner > Uninstall.
+
+OPTION 2 - NO INSTALL (zip)
+  1. Download the file ending in _no-install.zip. Right-click it -> Extract
+  All... and put the BuildRunner folder somewhere it can stay (for example
+  Documents). Don't run it from inside the zip.
+  2. Double-click BuildRunner.exe. Nothing is installed; to remove it,
+  delete the folder.
+
+EITHER WAY
+  BuildRunner looks for your apps in the folder you pick. Click Change... at
+  the top and choose the folder that holds your app projects (one folder per
+  app). If you put the BuildRunner folder inside that folder, it finds your
+  apps by itself.
 
 "Windows protected your PC"? Click "More info" -> "Run anyway".
 Windows shows that for apps downloaded from the internet that aren't
