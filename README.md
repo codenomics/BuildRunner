@@ -6,15 +6,14 @@
 
 ## Download
 
-**Latest version: v1.8** (Oct 3, 2026)
+**Latest version: v1.9** (Oct 3, 2026)
 
-- [BuildRunner_v1.8_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.8/BuildRunner_v1.8_no-install.zip) - 130 KB
-- [BuildRunner_v1.8_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.8/BuildRunner_v1.8_Setup.exe) - 199 KB
+- [BuildRunner_v1.9_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.9/BuildRunner_v1.9_no-install.zip) - 133 KB
+- [BuildRunner_v1.9_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.9/BuildRunner_v1.9_Setup.exe) - 202 KB
 
-What's new in v1.8:
+What's new in v1.9:
 
-- New optional disclaimer line in the rules file: shown at the top of the GitHub page and at the top of the READ ME FIRST in every zip
-- Fixed the upload check flagging BuildRunner's own program
+- New: BuildRunner can check GitHub for a newer version and offer to update ("Updates" button at the top right; the startup check can be turned off there).
 
 Older versions are on the [Releases page](https://github.com/codenomics/BuildRunner/releases).
 
@@ -140,6 +139,10 @@ notices changes by itself.
 
 GOOD TO KNOW
 ------------
+- Updates: a few seconds after it starts, BuildRunner quietly checks GitHub for a
+  newer version. If there is one, the "Updates" button at the top right changes
+  to "Update available" - click it to update. Click "Updates" any time to check
+  now; that box also turns the startup check on or off.
 - F5 = refresh. The lists also refresh when you come back to the window.
 - Settings are kept in %APPDATA%\BuildRunner\settings.txt.
 - If something goes wrong, BuildRunner-log.txt next to BuildRunner.exe says what.
