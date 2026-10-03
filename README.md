@@ -2,24 +2,35 @@
 
 ## Download
 
-**Latest version: v1.5** (Oct 3, 2026)
+**Latest version: v1.6** (Oct 3, 2026)
 
-- [BuildRunner_v1.5.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.5/BuildRunner_v1.5.zip) - 127 KB
-- [BuildRunner_v1.5_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.5/BuildRunner_v1.5_Setup.exe) - 197 KB
+- [BuildRunner_v1.6_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.6/BuildRunner_v1.6_no-install.zip) - 128 KB
+- [BuildRunner_v1.6_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.6/BuildRunner_v1.6_Setup.exe) - 197 KB
 
-What's new in v1.5:
+What's new in v1.6:
 
-- Normal apps can now get a one-click installer (Setup.exe) as well as, or instead of, a zip
-- The installer needs no admin rights and adds Start menu and Desktop shortcuts and an uninstall entry
-- New GitHub buttons: Connect GitHub, Create GitHub repo, Link existing repo, and Make and upload
-- Plugins for Elgato and VSD Craft share one GitHub repo each, with separate downloads
-- BuildRunner never uploads source code, logs, notes files, keys or personal paths - it checks first and stops if it finds any
-- Your GitHub token stays on your PC and is never put in a zip or a release
-- Optional "publisher" line in the rules file puts your name on installers
+- With Zip + installer, the zip is now named with "no-install" so it's clear which download is which
+- The GitHub page now has a Getting started section for both the installer and the no-install zip
 
 Older versions are on the [Releases page](https://github.com/codenomics/BuildRunner/releases).
 
 ## Getting started
+
+### Installer (recommended)
+
+1. Download the file ending in `_Setup.exe` above.
+2. Double-click it and click Install. It installs just for you - no admin password needed - and adds Start menu and Desktop shortcuts.
+3. To remove it later: Windows Settings > Apps, find BuildRunner and click Uninstall.
+
+### No install (portable zip)
+
+1. Download the file ending in `_no-install.zip` above.
+2. Right-click it > Extract All, and pick a folder. Don't run it from inside the zip.
+3. Open the folder and double-click the app's .exe. Nothing is installed; delete the folder to remove it.
+
+Windows says "Windows protected your PC"? Click More info > Run anyway. It shows that for apps without a paid signing certificate.
+
+## More details
 
 ```
 BUILDRUNNER
