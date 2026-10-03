@@ -4,12 +4,18 @@
 
 **Latest version: v1.5** (Oct 3, 2026)
 
-- [BuildRunner_v1.5.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.5/BuildRunner_v1.5.zip) - 184 KB
+- [BuildRunner_v1.5.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.5/BuildRunner_v1.5.zip) - 127 KB
 - [BuildRunner_v1.5_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.5/BuildRunner_v1.5_Setup.exe) - 197 KB
 
 What's new in v1.5:
 
-No notes for this version.
+- Normal apps can now get a one-click installer (Setup.exe) as well as, or instead of, a zip
+- The installer needs no admin rights and adds Start menu and Desktop shortcuts and an uninstall entry
+- New GitHub buttons: Connect GitHub, Create GitHub repo, Link existing repo, and Make and upload
+- Plugins for Elgato and VSD Craft share one GitHub repo each, with separate downloads
+- BuildRunner never uploads source code, logs, notes files, keys or personal paths - it checks first and stops if it finds any
+- Your GitHub token stays on your PC and is never put in a zip or a release
+- Optional "publisher" line in the rules file puts your name on installers
 
 Older versions are on the [Releases page](https://github.com/codenomics/BuildRunner/releases).
 
