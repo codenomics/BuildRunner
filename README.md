@@ -6,19 +6,15 @@
 
 ## Download
 
-**Latest version: v1.10** (Oct 8, 2026)
+**Latest version: v1.11** (Oct 8, 2026)
 
-- [BuildRunner_v1.10_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.10/BuildRunner_v1.10_no-install.zip) - 137 KB
-- [BuildRunner_v1.10_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.10/BuildRunner_v1.10_Setup.exe) - 205 KB
-- [BuildRunner_v1.10_source.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.10/BuildRunner_v1.10_source.zip) - 127 KB
+- [BuildRunner_v1.11_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.11/BuildRunner_v1.11_no-install.zip) - 137 KB
+- [BuildRunner_v1.11_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.11/BuildRunner_v1.11_Setup.exe) - 205 KB
+- [BuildRunner_v1.11_source.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.11/BuildRunner_v1.11_source.zip) - 127 KB
 
-What's new in v1.10:
+What's new in v1.11:
 
-- New release type: zip + installer + code. It also shares a cleaned copy of the app's code as a _source.zip
-- The code copy has the AI's name and private names taken out of its comments, and your own files are never changed
-- The code zip gets the same safety check as uploads, and is thrown away if anything private is left in it
-- Added scrub = lines to the rules file for private names to take out of shared code
-- The GitHub page now has a Source code section with build steps when a code zip is uploaded
+- updater versioning fix**
 
 Older versions are on the [Releases page](https://github.com/codenomics/BuildRunner/releases).
 
