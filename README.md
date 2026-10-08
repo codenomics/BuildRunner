@@ -6,14 +6,19 @@
 
 ## Download
 
-**Latest version: v1.9** (Oct 3, 2026)
+**Latest version: v1.10** (Oct 8, 2026)
 
-- [BuildRunner_v1.9_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.9/BuildRunner_v1.9_no-install.zip) - 133 KB
-- [BuildRunner_v1.9_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.9/BuildRunner_v1.9_Setup.exe) - 202 KB
+- [BuildRunner_v1.10_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.10/BuildRunner_v1.10_no-install.zip) - 137 KB
+- [BuildRunner_v1.10_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.10/BuildRunner_v1.10_Setup.exe) - 205 KB
+- [BuildRunner_v1.10_source.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.10/BuildRunner_v1.10_source.zip) - 127 KB
 
-What's new in v1.9:
+What's new in v1.10:
 
-- New: BuildRunner can check GitHub for a newer version and offer to update ("Updates" button at the top right; the startup check can be turned off there).
+- New release type: zip + installer + code. It also shares a cleaned copy of the app's code as a _source.zip
+- The code copy has the AI's name and private names taken out of its comments, and your own files are never changed
+- The code zip gets the same safety check as uploads, and is thrown away if anything private is left in it
+- Added scrub = lines to the rules file for private names to take out of shared code
+- The GitHub page now has a Source code section with build steps when a code zip is uploaded
 
 Older versions are on the [Releases page](https://github.com/codenomics/BuildRunner/releases).
 
@@ -32,6 +37,10 @@ Older versions are on the [Releases page](https://github.com/codenomics/BuildRun
 3. Open the folder and double-click the app's .exe. Nothing is installed; delete the folder to remove it.
 
 Windows says "Windows protected your PC"? Click More info > Run anyway. It shows that for apps without a paid signing certificate.
+
+## Source code
+
+Want to see how it works, or build it yourself? Download the file ending in `_source.zip` above, extract it and double-click `Build.bat`. It only uses the C# compiler that already comes with Windows, so there is nothing to install.
 
 ## More details
 
@@ -106,12 +115,28 @@ SHARE
 
 
 INSTALLERS (normal apps)
-- The button under the file list picks Zip, Installer, or Zip + installer
-  for each app. An installer is one Setup.exe that installs just for you
+- The button under the file list picks Zip, Installer, Zip + installer, or
+  Zip + installer + code for each app. An installer is one Setup.exe that installs just for you
   (no admin question) with Start menu and Desktop shortcuts and an entry
   in Windows' Apps list for uninstalling. No source code inside.
 - To put your name on installers, add a line  publisher = Your Name
   under [settings] in BuildRunner-rules.txt.
+
+
+SHARING YOUR CODE (optional)
+- Zip + installer + code also makes  <App>_v1.0_source.zip : a cleaned COPY of
+  the app's code (your own files are never changed). It holds the code files
+  Build.bat compiles, Build.bat, icons and pictures, and a README.txt that
+  says how to build it. People extract it and double-click Build.bat.
+- In the copy, comments that name an AI are fixed or dropped. To take a
+  private name out of your comments too, add a line  scrub = Name  under
+  [settings] in BuildRunner-rules.txt (Name's becomes "my", Name becomes
+  "the user").
+- The finished code zip is then checked like an upload: paths to your
+  Windows user folder, tokens, keys, email addresses, this PC's name, an AI's
+  name, or a scrub name still in the code itself. If anything is found the
+  code zip is not kept and you get a list of what and where.
+- For Windows apps only (not Stream Deck plugins).
 
 
 GITHUB (optional)
@@ -124,10 +149,11 @@ GITHUB (optional)
   ever created by itself.
 - Linked apps get "Make and upload": makes the zip / installer and posts
   it as a GitHub release with your notes, and updates the README.
-- BuildRunner only uploads the finished zip / installer and the README.
-  It stops, and tells you why, if a file looks like source code, a log,
-  a key, a password-like token, an email address or a path to your Windows
-  user folder.
+- BuildRunner only uploads the finished zip / installer, the cleaned code
+  zip (only if you chose Zip + installer + code) and the README. It stops,
+  and tells you why, if a file looks like a log, a key, a password-like
+  token, an email address, a path to your Windows user folder, or code
+  that wasn't made by BuildRunner.
 
 
 THE RULES FILE
