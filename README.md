@@ -1,20 +1,23 @@
 # BuildRunner
 
+Keeps a folder full of small apps tidy, and makes zips of them you can share.
+
 > This application is built by AI. I made this for myself and I'm uploading it to GitHub for backup and to share in case anyone can get any use out of it. It's pretty specific to my setup and my needs, but if you can get any use out of it, then enjoy.
 >
 > Use at your own risk. I offer no warranty or guarantees for this software.
 
 ## Download
 
-**Latest version: v1.11** (Oct 8, 2026)
+**Latest version: v1.12** (Oct 13, 2026)
 
-- [BuildRunner_v1.11_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.11/BuildRunner_v1.11_no-install.zip) - 137 KB
-- [BuildRunner_v1.11_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.11/BuildRunner_v1.11_Setup.exe) - 205 KB
-- [BuildRunner_v1.11_source.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.11/BuildRunner_v1.11_source.zip) - 127 KB
+- [BuildRunner_v1.12_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.12/BuildRunner_v1.12_no-install.zip) - 137 KB
+- [BuildRunner_v1.12_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.12/BuildRunner_v1.12_Setup.exe) - 206 KB
+- [BuildRunner_v1.12_source.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.12/BuildRunner_v1.12_source.zip) - 128 KB
 
-What's new in v1.11:
+What's new in v1.12:
 
-- updater versioning fix**
+- GitHub pages now start with what the app is, then the AI note, then the downloads
+- The opening part of the readme shows as normal text with real bullet points on GitHub
 
 Older versions are on the [Releases page](https://github.com/codenomics/BuildRunner/releases).
 
@@ -41,12 +44,6 @@ Want to see how it works, or build it yourself? Download the file ending in `_so
 ## More details
 
 ```
-BUILDRUNNER
-===========
-
-Keeps a folder full of small apps tidy, and makes zips of them you can share.
-
-
 GETTING STARTED
 ---------------
 Pick one. Both give you the same app.
