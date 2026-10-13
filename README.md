@@ -1,6 +1,18 @@
 # BuildRunner
 
-Keeps a folder full of small apps tidy, and makes zips of them you can share.
+Keeps a folder full of small Windows apps tidy and gets them ready to share. BuildRunner clears out the clutter, packs each app into a zip or a one-click installer with its release notes, and can post it all to GitHub for you, checking along the way that nothing private slips out.
+
+### Features
+
+- Clean: finds build logs, old backups, temp files and other leftovers, and sends them to the Recycle Bin with one click.
+- Organize: rename or move an app's folder, open it, or run its build.
+- Share: make a zip, an installer, or both, with a version number and a WHAT'S NEW list that keeps every version's notes.
+- Installers: one Setup.exe that installs just for that person, with no admin password, Start menu and Desktop shortcuts, and an uninstall entry.
+- Stream Deck plugins: one-click installers for Elgato Stream Deck and VSD Craft.
+- Share your code (optional): a cleaned copy of the code that anyone can build with what already comes with Windows.
+- GitHub (optional): upload each release with its notes and keep the app's GitHub page up to date.
+- Privacy check: stops before sharing anything that looks like a password, key, email address, log file or a path to your Windows user folder.
+- Update checker: it lets you know when a new version of BuildRunner is out and installs it for you.
 
 > This application is built by AI. I made this for myself and I'm uploading it to GitHub for backup and to share in case anyone can get any use out of it. It's pretty specific to my setup and my needs, but if you can get any use out of it, then enjoy.
 >
@@ -8,16 +20,15 @@ Keeps a folder full of small apps tidy, and makes zips of them you can share.
 
 ## Download
 
-**Latest version: v1.12** (Oct 13, 2026)
+**Latest version: v1.13** (Oct 13, 2026)
 
-- [BuildRunner_v1.12_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.12/BuildRunner_v1.12_no-install.zip) - 137 KB
-- [BuildRunner_v1.12_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.12/BuildRunner_v1.12_Setup.exe) - 206 KB
-- [BuildRunner_v1.12_source.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.12/BuildRunner_v1.12_source.zip) - 128 KB
+- [BuildRunner_v1.13_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.13/BuildRunner_v1.13_no-install.zip) - 138 KB
+- [BuildRunner_v1.13_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.13/BuildRunner_v1.13_Setup.exe) - 206 KB
+- [BuildRunner_v1.13_source.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.13/BuildRunner_v1.13_source.zip) - 128 KB
 
-What's new in v1.12:
+What's new in v1.13:
 
-- GitHub pages now start with what the app is, then the AI note, then the downloads
-- The opening part of the readme shows as normal text with real bullet points on GitHub
+No notes for this version.
 
 Older versions are on the [Releases page](https://github.com/codenomics/BuildRunner/releases).
 
@@ -142,6 +153,10 @@ GITHUB (optional)
   ever created by itself.
 - Linked apps get "Make and upload": makes the zip / installer and posts
   it as a GitHub release with your notes, and updates the README.
+- The GitHub page starts with the opening part of the app's readme (the
+  text between its title and the first heading). Write a short summary
+  there, and optionally a FEATURES line with "- " bullets under it; it
+  shows as normal text with bullet points, before the downloads.
 - BuildRunner only uploads the finished zip / installer, the cleaned code
   zip (only if you chose Zip + installer + code) and the README. It stops,
   and tells you why, if a file looks like a log, a key, a password-like
