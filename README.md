@@ -20,17 +20,15 @@ Keeps a folder full of small Windows apps tidy and gets them ready to share. Bui
 
 ## Download
 
-**Latest version: v1.14** (Oct 16, 2026)
+**Latest version: v1.15** (Nov 3, 2026)
 
-- [BuildRunner_v1.14_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.14/BuildRunner_v1.14_no-install.zip) - 139 KB
-- [BuildRunner_v1.14_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.14/BuildRunner_v1.14_Setup.exe) - 207 KB
-- [BuildRunner_v1.14_source.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.14/BuildRunner_v1.14_source.zip) - 130 KB
+- [BuildRunner_v1.15_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.15/BuildRunner_v1.15_no-install.zip) - 140 KB
+- [BuildRunner_v1.15_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.15/BuildRunner_v1.15_Setup.exe) - 207 KB
+- [BuildRunner_v1.15_source.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.15/BuildRunner_v1.15_source.zip) - 130 KB
 
-What's new in v1.14:
+What's new in v1.15:
 
-- The app list now has open-and-close groups (Plugins and Archived). Click a group name to open or close it.
-- Apps inside a group folder stay in the list. Archived apps are left out of Make all ready.
-- Move to another folder keeps an app listed when you move it into a group folder.
+- When you create a GitHub repo for an app, you can now choose Public or Private.
 
 Older versions are on the [Releases page](https://github.com/codenomics/BuildRunner/releases).
 
