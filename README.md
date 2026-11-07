@@ -20,15 +20,15 @@ Keeps a folder full of small Windows apps tidy and gets them ready to share. Bui
 
 ## Download
 
-**Latest version: v1.15** (Nov 3, 2026)
+**Latest version: v1.16** (Nov 7, 2026)
 
-- [BuildRunner_v1.15_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.15/BuildRunner_v1.15_no-install.zip) - 140 KB
-- [BuildRunner_v1.15_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.15/BuildRunner_v1.15_Setup.exe) - 207 KB
-- [BuildRunner_v1.15_source.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.15/BuildRunner_v1.15_source.zip) - 130 KB
+- [BuildRunner_v1.16_no-install.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.16/BuildRunner_v1.16_no-install.zip) - 140 KB
+- [BuildRunner_v1.16_Setup.exe](https://github.com/codenomics/BuildRunner/releases/download/v1.16/BuildRunner_v1.16_Setup.exe) - 209 KB
+- [BuildRunner_v1.16_source.zip](https://github.com/codenomics/BuildRunner/releases/download/v1.16/BuildRunner_v1.16_source.zip) - 130 KB
 
-What's new in v1.15:
+What's new in v1.16:
 
-- When you create a GitHub repo for an app, you can now choose Public or Private.
+- Installers can now run a step from the app when it's uninstalled (an "on uninstall" line in an app's share settings), so apps that change a Windows setting can put it back
 
 Older versions are on the [Releases page](https://github.com/codenomics/BuildRunner/releases).
 
